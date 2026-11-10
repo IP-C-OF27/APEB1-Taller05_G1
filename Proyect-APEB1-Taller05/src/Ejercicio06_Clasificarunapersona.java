@@ -21,11 +21,8 @@ public class Ejercicio06_Clasificarunapersona {
         {
         if(edad > 18){
             System.out.print("Eres un adulto! ");
-        }
-                 
-        
+        }    
     }
-    
 }
 }
 /*
