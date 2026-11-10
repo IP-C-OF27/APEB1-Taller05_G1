@@ -13,6 +13,7 @@ public class Ejercicio02_Diadelasemana {
         Scanner tcl = new Scanner(System.in);
         int dia;
         String msjdia;
+        System.out.print("Deme un numero de dia: ");
         dia = tcl.nextInt();
         switch (dia) {
             case 1:
@@ -22,7 +23,7 @@ public class Ejercicio02_Diadelasemana {
                 msjdia = "Martes";               
                 break;    
             case 3:
-                msjdia = "Miércoles";
+                msjdia = "Miercoles";
                 break;
             case 4:
                 msjdia = "Jueves";
@@ -31,7 +32,7 @@ public class Ejercicio02_Diadelasemana {
                 msjdia = "Viernes";
                 break;
             case 6:
-                msjdia = "Sábado";
+                msjdia = "Sabado";
                 break;
             case 7:
                 msjdia = "Domingo";
@@ -39,12 +40,13 @@ public class Ejercicio02_Diadelasemana {
             default:
                 msjdia = "error";
         }
-        System.out.println("El nro: "+dia + "correspone a"+ msjdia);
-    }
-    
+        System.out.println("El nro: "+dia + " correspone a "+ msjdia);
+    }    
 }
-
 /*
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * run-single:
+Deme un numero de dia: 4
+El nro: 4 correspone a Jueves
+BUILD SUCCESSFUL (total time: 5 seconds)
 */
