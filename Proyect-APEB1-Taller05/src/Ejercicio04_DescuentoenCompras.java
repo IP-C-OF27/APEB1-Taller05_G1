@@ -10,8 +10,8 @@ import java.util.Scanner;
 public class Ejercicio04_DescuentoenCompras {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        double precio = 0, rtafinal;
-        System.out.println("Ingrese el valor a pagar: ");
+        double precio, rtafinal;
+        System.out.print("Ingrese el valor a pagar: ");
         precio = tcl.nextDouble();
         if (precio > 100);
         rtafinal = (precio * 0.90);

@@ -20,7 +20,7 @@ public class Ejercicio03_MayorTresNumeros {
             System.out.println("El numero mayor es: " + num_1);
         else 
             if (num_2 > num_1 && num_2 > num_3)
-                System.out.println("El uero mayor es: " + num_2);
+                System.out.println("El numero mayor es: " + num_2);
             else 
                 System.out.println("El numero mayor es: " + num_3);            
     }
