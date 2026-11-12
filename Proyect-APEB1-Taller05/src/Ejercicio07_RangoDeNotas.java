@@ -1,8 +1,6 @@
-
 import java.util.Scanner;
-
 /**
- * Ejercicio 01: "Rango de Notas: Asignar una letra (A, B, C, D) a una 
+ * Ejercicio 07: "Rango de Notas: Asignar una letra (A, B, C, D) a una 
  * calificación en función de su rango (A para 90-100, B para 80-89, etc.)."
  * @author Paula, Joaquin
  * @version 1.0

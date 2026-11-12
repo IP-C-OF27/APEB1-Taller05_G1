@@ -6,19 +6,17 @@ import java.util.Scanner;
  * @author Joaquin, Paula
  * @version 1.0
  */
-
 public class Ejercicio04_DescuentoenCompras {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        double precio, rtafinal;
+        double precio;
         System.out.print("Ingrese el valor a pagar: ");
         precio = tcl.nextDouble();
-        if (precio > 100);
-        rtafinal = (precio * 0.90);
-        System.out.println("Su valor a pagar es: "+rtafinal);       
+        if (precio > 100)
+            precio *= 0.90;
+        System.out.println("Total: "+precio);
     }  
 }
-
 /***
 EVIDENCIA DEL RUN:
 run-single:
