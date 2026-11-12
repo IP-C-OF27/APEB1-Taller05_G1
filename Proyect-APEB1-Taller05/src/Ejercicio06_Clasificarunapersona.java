@@ -5,6 +5,7 @@ import java.util.Scanner;
  * @author Joaquín, Paula
  * @version 1.0
  */
+
 public class Ejercicio06_Clasificarunapersona {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
