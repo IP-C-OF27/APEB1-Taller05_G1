@@ -37,7 +37,7 @@ public class Ejercicio02_Diadelasemana {
             default:
                 msjdia = "error";
         }
-        System.out.println("El nro: "+dia + " correspone a "+ msjdia);
+        System.out.println("El nro "+dia + " correspone a: "+ msjdia);
     }    
 }
 /*

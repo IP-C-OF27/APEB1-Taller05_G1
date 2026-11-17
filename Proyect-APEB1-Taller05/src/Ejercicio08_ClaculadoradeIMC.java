@@ -11,19 +11,19 @@ public class Ejercicio08_ClaculadoradeIMC {
         Scanner tcl = new Scanner(System.in);
         double altura, peso, respuesta;
         int var1 = 2;
-        System.out.println("Ingrese su peso en kg: ");
+        System.out.print("Ingrese su peso en kg: ");
         peso = tcl.nextDouble();
-        System.out.println("Ingrese su altura en m: ");
+        System.out.print("Ingrese su altura en m: ");
         altura = tcl.nextDouble();
         respuesta = (peso/ Math.pow(altura, var1));
         if (respuesta < 18.5) {
-        System.out.println("Tienes peso bajo!: "+respuesta);}
+        System.out.println("Tienes peso bajo, tu peso es: "+respuesta);}
         if ((respuesta >= 18.5) && (respuesta <= 25)) {
-        System.out.println("Tienes peso normal!: "+respuesta);}
+        System.out.println("Tienes peso norma, tu peso es: "+respuesta);}
         if ((respuesta >= 25) && (respuesta < 30)) {
-        System.out.println("Tienes sobrepeso!: "+respuesta);}
+        System.out.println("Tienes sobrepeso, tu peso es: "+respuesta);}
         if (respuesta >= 30) {
-        System.out.println("Tienes obesidad!: "+respuesta);}
+        System.out.println("Tienes obesidad, tu peso es: "+respuesta);}
     }  
 }
 /*

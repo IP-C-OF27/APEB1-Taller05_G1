@@ -13,16 +13,16 @@ public class Ejercicio10_Valores_pares_impares {
         valor1 = tcl.nextInt();
         if (valor1%2 == 0)
             System.out.println("Tu numero es par! ");
-        if (valor1%2 == 1)
+        if (valor1%2 == 1 || valor1%2 == -1)
             System.out.println("Tu numero es impar! ");    
     }
 }
 /*
 EVIDENCIA DEL RUN:
 run-single:
-Ingrese su numero: 9
+Ingrese su numero: -15
 Tu numero es impar! 
-BUILD SUCCESSFUL (total time: 2 seconds)
+BUILD SUCCESSFUL (total time: 6 seconds)
 
 run-single:
 Ingrese su numero: 8
